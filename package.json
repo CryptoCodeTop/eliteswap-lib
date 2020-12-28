@@ -1,23 +1,23 @@
 {
-  "name": "@eliteswap/lib",
+  "name": "@cryptocode99/lib",
   "version": "2.0.5",
   "description": "📖 Solidity libraries that are shared across Elite Swap contracts",
   "files": [
     "contracts",
     "!contracts/test"
   ],
-  "homepage": "https://eliteswap.org",
+  "homepage": "https://Cryptocode99.org",
   "repository": {
-    "url": "git+https://github.com/EthereumEliteswap/eliteswap-lib.git",
+    "url": "git+https://github.com/cryptocode99/cryptocode99-lib.git",
     "type": "git"
   },
   "keywords": [
-    "eliteswap",
+    "cryptocode99",
     "ethereum",
     "lib"
   ],
   "bugs": {
-    "url": "https://github.com/EthereumEliteswap/eliteswap-lib/issues"
+    "url": "https://github.com/cryptocode99/cryptocode99-lib/issues"
   },
   "engines": {
     "node": ">=10"
