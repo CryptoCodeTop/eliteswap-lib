@@ -34,9 +34,9 @@ describe('PairNamer', () => {
     }
 
     it('concatenation', async () => {
-      expect(await pairName('DAI Stable Coin', 'MKR Token', 'Cryptocode99 V2 Liquidity Provider Share for ', '.')).to.eq(
-        'Cryptocode99 V2 Liquidity Provider Share for DAI Stable Coin:MKR Token.'
-      )
+      expect(
+        await pairName('DAI Stable Coin', 'MKR Token', 'Cryptocode99 V2 Liquidity Provider Share for ', '.')
+      ).to.eq('Cryptocode99 V2 Liquidity Provider Share for DAI Stable Coin:MKR Token.')
     })
   })
 
